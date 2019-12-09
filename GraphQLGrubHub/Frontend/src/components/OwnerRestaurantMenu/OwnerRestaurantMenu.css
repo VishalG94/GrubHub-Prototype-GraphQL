@@ -1,0 +1,108 @@
+
+.row .col-sm-3 .restaurant-name{
+    font-size: '30px';
+    margin-left:'30px';
+    margin-bottom: '15px';
+    margin-top: '12px';
+}
+.col-sm-3 .cuisine-name{
+    color: '#6b6b83';
+    font-size: '40px';
+    margin-left:'10px';
+    margin-bottom: '15px';
+    margin-top: '12px';
+}
+/* .dropdown  .btn.btn-primary {
+    background: #0070eb none repeat scroll 0 0;
+    border-color: #0070eb;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    height: 50px;
+    padding: 10px 10px 10px 10px;
+    
+  } */
+  
+.col-sm-2{
+    border-radius: 2px; 
+    border: 1px solid balck;  
+    padding: 40px 40px 40px 40px;
+    font-size: 15.4px;  
+    line-height: 1.595;  
+    background-color: white;
+      
+}
+.preview-img
+{
+    border-radius: 100%;
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.7);
+}
+
+.preview-restaurant-img
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 90px;
+  max-height: 90px;
+  margin: auto;
+  text-align: center;
+}
+
+
+.preview i
+{
+    color: white;
+    font-size: 35px;
+    transform: translate(50px,130px);
+}
+
+.browse-button
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    position: absolute; /* Tweak the position property if the element seems to be unfit */
+    top: 50px;
+    left: 541px;
+    background: linear-gradient(180deg, transparent, black);
+    opacity: 0;
+    transition: 0.3s ease;
+}
+
+.browse-button:hover
+{
+    opacity: 1;
+}
+.browse-input
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    transform: translate(-1px,-26px);
+    opacity: 0;
+}
+
+.li-profile{
+    margin-bottom: 10px;
+}
+
+.col-sm-2  .tab{  
+    box-sizing: inherit;
+    color: #0070eb;
+    font-size: 15.4px;
+    /* font-family: r */
+    font-weight: bold;
+    margin: -40px -40px -40px -40px;    
+    padding: 20px 20px 20px 20px;
+    /* max-width: 25%;  */
+}
+
+.col-sm-10{
+    border-radius: 2px;
+    flex: 0 0 75%;
+    max-width: 75%;
+    background-color: white;
+    /* border-block:  */
+    /* background-color: gray;  */
+    /* border: 1px solid #d4d4d4; */
+}
+
